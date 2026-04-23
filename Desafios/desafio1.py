@@ -40,7 +40,8 @@ numero_personas = int(input("Número de personas: "))
 
 #Propina (15.0%): $12.83
 propina = total_cuenta * (porcentaje_propina / 100)
-print(f"Propina ({porcentaje_propina:.1f}%): ${propina:.2f}")
+print(propina)  # 12.825
+print(f"Propina ({porcentaje_propina:.1f}%): ${propina:.2f}") 
 #Total con propina: $98.33
 total_con_propina = total_cuenta + propina
 print(f"Total con propina: ${total_con_propina:.2f}")
