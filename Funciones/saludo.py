@@ -2,7 +2,7 @@
 def saludar():
     print("¡Hola! Bienvenido al curso de Python.")
     print("Espero que estés aprendiendo mucho.")
-    print("===============")
+    print("================================")
 
 # Paso 2: Llamar la función
 saludar()
