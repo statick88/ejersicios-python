@@ -1,0 +1,6 @@
+{
+    "app": "Mi Aplicacion",
+    "version": "2.0",
+    "debug": true,
+    "puerto": 8080
+}
