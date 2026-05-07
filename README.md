@@ -1,45 +1,43 @@
-# Módulo 3: Control de Flujo
+# Módulo 8: Errores y Excepciones
 
 ## Contenido de esta unidad
 
-### Estructuras condicionales:
-- `if` - ejecutar si condición es True
-- `elif` - otras condiciones
-- `else` - cuando ninguna condición cumple
+### Manejo de errores:
+- `try` - código que puede fallar
+- `except` - capturar el error
+- `else` - si no hay error
+- `finally` - siempre se ejecuta
+- `raise` - lanzar excepciones
 
-### Estructuras iterativas:
-- `for` - iterar sobre secuencias
-- `while` - iterar mientras condición True
-- `range()` - generar secuencias numéricas
+### Excepciones comunes:
+- ValueError - valor incorrecto
+- TypeError - tipo incorrecto
+- FileNotFoundError - archivo no existe
+- IndexError - índice fuera de rango
+- KeyError - clave no existe
 
-### Archivos nuevos:
-- `Estructuras_control/if-else/` - condicionales
-- `Estructuras_control/for/` - bucles for
-- `Estructuras_control/while/` - bucles while
-- `Estructuras_control/desafios/` - retos prácticos
-
-### Contenido acumulado (incluye M0 + M1 + M2):
-- Variables y tipos de datos
-- Operadores y expresiones
-- Conversión entre tipos
+### Contenido acumulado (incluye M0-M7):
+- Archivos y Persistencia
+- Colecciones
+- POO
+- Funciones
+- Control de flujo
 
 ## Objetivos de aprendizaje
 
 Al finalizar esta unidad podrás:
-1. Usar if/elif/else para tomar decisiones
-2. Crear bucles con for y while
-3. Controlar iteraciones con break/continue
-4. Usar range() para secuencias
+1. Manejar errores con try/except
+2. Crear excepciones personalizadas
+3. Usar finally para limpieza
 
 ## Cómo ejecutar
 
 ```bash
-python Estructuras_control/if-else/comparacion.py
-python Estructuras_control/for/for.py
-python Estructuras_control/while/while.py
+python Funciones/errores1.py
+# y más ejemplos de manejo de errores
 ```
 
 ## Siguiente unidad
 
-→ Módulo 4: Funciones (m4-func)
-← Unidad anterior: Módulo 2 (m2-ops)
+→ Módulo 9: Testing (m9-test)
+← Unidad anterior: Módulo 7 (m7-file)
