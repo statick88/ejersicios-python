@@ -12,18 +12,10 @@
 - `while` - iterar mientras condición True
 - `range()` - generar secuencias numéricas
 
-### Archivos nuevos:
-- `Estructuras_control/if-else/` - condicionales
-- `Estructuras_control/for/` - bucles for
-- `Estructuras_control/while/` - bucles while
-- `Estructuras_control/desafios/` - retos prácticos
+### Archivos de esta unidad:
+- `m3_control_flujo.py` - Teoría y ejemplos
 
-### Contenido acumulado (incluye M0 + M1 + M2):
-- Variables y tipos de datos
-- Operadores y expresiones
-- Conversión entre tipos
-
-## Objetivos de aprendizaje
+### Objetivos de aprendizaje
 
 Al finalizar esta unidad podrás:
 1. Usar if/elif/else para tomar decisiones
@@ -34,12 +26,10 @@ Al finalizar esta unidad podrás:
 ## Cómo ejecutar
 
 ```bash
-python Estructuras_control/if-else/comparacion.py
-python Estructuras_control/for/for.py
-python Estructuras_control/while/while.py
+python Introduccion/m3_control_flujo.py
 ```
 
 ## Siguiente unidad
 
-→ Módulo 4: Funciones (m4-func)
-← Unidad anterior: Módulo 2 (m2-ops)
+→ Módulo 4: Funciones
+← Unidad anterior: Módulo 2
