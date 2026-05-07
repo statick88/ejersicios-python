@@ -1,87 +1,111 @@
 #!/usr/bin/env python3
 """
 Ejercicio M2.1: Operadores
-==========================
+=========================
 
-练习: Usar operadores aritméticos y de comparación
+练习: Practicar operadores en Python
 
 Libro: M2_Operadores.md
 """
 
 # ==========================================
-# Operadores Aritméticos
+# Ejercicio 1: Operadores aritméticos
 # ==========================================
 
-a, b = 10, 3
+a = 15
+b = 4
 
+print("=== Operadores Aritméticos ===")
 print(f"a = {a}, b = {b}")
-print(f"a + b = {a + b}")   # suma
-print(f"a - b = {a - b}")   # resta
-print(f"a * b = {a * b}")   # multiplicación
-print(f"a / b = {a / b}")   # división
-print(f"a // b = {a // b}")  # división entera
-print(f"a % b = {a % b}")   # módulo (resto)
-print(f"a ** b = {a ** b}")  # exponente
+print(f"a + b = {a + b}")   # 19
+print(f"a - b = {a - b}")   # 11
+print(f"a * b = {a * b}")   # 60
+print(f"a / b = {a / b}")   # 3.75
+print(f"a // b = {a // b}") # 3
+print(f"a % b = {a % b}")  # 3
+print(f"a ** b = {a ** b}") # 50625
 
 # ==========================================
-# Operadores de Comparación
+# Ejercicio 2: Operadores de comparación
 # ==========================================
 
-x, y = 5, 10
+x = 7
+y = 7
+z = 10
 
-print(f"\nx = {x}, y = {y}")
-print(f"x == y: {x == y}")   # igual
-print(f"x != y: {x != y}")   # diferente
-print(f"x < y: {x < y}")     # menor
-print(f"x > y: {x > y}")     # mayor
-print(f"x <= y: {x <= y}")   # menor o igual
-print(f"x >= y: {x >= y}")   # mayor o igual
-
-# ==========================================
-# Operadores Lógicos
-# ==========================================
-
-sol = True
-calor = True
-
-print(f"\nsol = {sol}, calor = {calor}")
-print(f"sol and calor: {sol and calor}")
-print(f"sol or False: {sol or False}")
-print(f"not sol: {not sol}")
+print("\n=== Operadores de Comparación ===")
+print(f"x = {x}, y = {y}, z = {z}")
+print(f"x == y: {x == y}")   # True
+print(f"x != z: {x != z}")   # True
+print(f"x < z: {x < z}")    # True
+print(f"x <= y: {x <= y}")  # True
 
 # ==========================================
-# OPERADORES EN CONDICIONES
+# Ejercicio 3: Operadores lógicos
 # ==========================================
 
-edad = 20
+edad = 16
+es_estudiante = True
+tiene_dinero = False
 
-# and: ambas condiciones
-if edad >= 18 and edad < 65:
-    print(f"\nEdad {edad}: Adulto working")
+print("\n=== Operadores Lógicos ===")
+print(f"Edad: {edad}, Estudiante: {es_estudiante}, Dinero: {tiene_dinero}")
 
-# or: al menos una
-rol = "admin"
-if rol == "admin" or rol == "editor":
-    print(f"Rol {rol}: Acceso completo")
+# and - ambas condiciones
+puede_entrar = edad >= 18 and tiene_dinero
+print(f"edad >= 18 and tiene_dinero = {puede_entrar}")  # False
+
+# or - al menos una
+tiene_descuento = es_estudiante or tiene_dinero
+print(f"es_estudiante or tiene_dinero = {tiene_descuento}")  # True
+
+# not - inverso
+no_es_estudiante = not es_estudiante
+print(f"not es_estudiante = {no_es_estudiante}")  # False
 
 # ==========================================
-# DESAFÍO: Calculadora simple
+# Ejercicio 4: Calculadora simple
 # ==========================================
 
-def calculadora(a, b, operacion):
-    if operacion == "+":
+def calculadora(a, b, operador):
+    """Calculadora básica con operadores."""
+    if operador == "+":
         return a + b
-    elif operacion == "-":
+    elif operador == "-":
         return a - b
-    elif operacion == "*":
+    elif operador == "*":
         return a * b
-    elif operacion == "/":
-        return a / b if b != 0 else "Error"
+    elif operador == "/":
+        return a / b if b != 0 else "Error: división por cero"
     else:
-        return "Operación inválida"
+        return "Operador no válido"
 
-print("\nCalculadora:")
-print(f"10 + 5 = {calculadora(10, 5, '+')}")
-print(f"10 - 5 = {calculadora(10, 5, '-')}")
-print(f"10 * 5 = {calculadora(10, 5, '*')}")
-print(f"10 / 5 = {calculadora(10, 5, '/')}")
+print("\n=== Calculadora ===")
+print(f"10 + 5 = {calculadora(10, 5, '+')}")   # 15
+print(f"10 - 5 = {calculadora(10, 5, '-')}")   # 5
+print(f"10 * 5 = {calculadora(10, 5, '*')}")   # 50
+print(f"10 / 5 = {calculadora(10, 5, '/')}")   # 2.0
+
+# ==========================================
+# DESAFÍO: Calculadora de IMC
+# ==========================================
+
+# BMI = weight / (height in meters)²
+
+peso = 70     # kg
+altura = 1.75  # metros
+
+imc = peso / (altura ** 2)
+print(f"\n=== Calculadora de IMC ===")
+print(f"Peso: {peso}kg, Altura: {altura}m")
+print(f"IMC = {imc:.2f}")  # ~22.86
+
+# Clasificación
+if imc < 18.5:
+    print("Clasificación: Bajo peso")
+elif imc < 25:
+    print("Clasificación: Normal")
+elif imc < 30:
+    print("Clasificación: Sobrepeso")
+else:
+    print("Clasificación: Obesidad")

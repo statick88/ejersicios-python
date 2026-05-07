@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Módulo 2: Operadores y Expresiones
+# Módulo 2: Operadores
 
 ## Contenido de esta unidad
 
@@ -7,36 +6,28 @@
 - Operadores aritméticos: +, -, *, /, //, %, **
 - Operadores de comparación: ==, !=, <, <=, >, >=
 - Operadores lógicos: and, or, not
-- Operador ternario: valor1 if condicion else valor2
+- Operadores de asignación: =, +=, -=, *=, /=, etc.
 
-### Archivos nuevos:
-- `Estructuras_control/if-else/operadores_logicos.py` - and, or, not
-- `Estructuras_control/if-else/operador_ternario.py` - if en una línea
+### Archivos de esta unidad:
+- `m2_operadores.py` - Teoría y ejemplos
+- `ejercicio_04.py` - Práctica
 
-### Contenido acumulado (incluye M0 + M1):
-- Variables y tipos de datos
-- Conversión entre tipos (casting)
-- Cadenas de texto
-
-## Objetivos de aprendizaje
+### Objetivos de aprendizaje
 
 Al finalizar esta unidad podrás:
 1. Usar operadores aritméticos
-2. Comparar valores con operadores lógicos
+2. Comparar valores
 3. Combinar condiciones con and/or/not
-4. Usar el operador ternario
+4. Usar operadores de asignación
 
 ## Cómo ejecutar
 
 ```bash
-python Estructuras_control/if-else/operadores_logicos.py
-python Estructuras_control/if-else/operador_ternario.py
+python Introduccion/m2_operadores.py
+python Introduccion/ejercicio_04.py
 ```
 
 ## Siguiente unidad
 
-→ Módulo 3: Control de Flujo (m3-flow)
-← Unidad anterior: Módulo 1 (m1-vars)
-=======
-# Curso Python 2026
->>>>>>> m1-vars
+→ Módulo 3: Control de Flujo
+← Unidad anterior: Módulo 1
