@@ -1,38 +1,45 @@
-# Módulo 2: Operadores y Expresiones
+# Módulo 3: Control de Flujo
 
 ## Contenido de esta unidad
 
-### Operadores nuevos:
-- Operadores aritméticos: +, -, *, /, //, %, **
-- Operadores de comparación: ==, !=, <, <=, >, >=
-- Operadores lógicos: and, or, not
-- Operador ternario: valor1 if condicion else valor2
+### Estructuras condicionales:
+- `if` - ejecutar si condición es True
+- `elif` - otras condiciones
+- `else` - cuando ninguna condición cumple
+
+### Estructuras iterativas:
+- `for` - iterar sobre secuencias
+- `while` - iterar mientras condición True
+- `range()` - generar secuencias numéricas
 
 ### Archivos nuevos:
-- `Estructuras_control/if-else/operadores_logicos.py` - and, or, not
-- `Estructuras_control/if-else/operador_ternario.py` - if en una línea
+- `Estructuras_control/if-else/` - condicionales
+- `Estructuras_control/for/` - bucles for
+- `Estructuras_control/while/` - bucles while
+- `Estructuras_control/desafios/` - retos prácticos
 
-### Contenido acumulado (incluye M0 + M1):
+### Contenido acumulado (incluye M0 + M1 + M2):
 - Variables y tipos de datos
-- Conversión entre tipos (casting)
-- Cadenas de texto
+- Operadores y expresiones
+- Conversión entre tipos
 
 ## Objetivos de aprendizaje
 
 Al finalizar esta unidad podrás:
-1. Usar operadores aritméticos
-2. Comparar valores con operadores lógicos
-3. Combinar condiciones con and/or/not
-4. Usar el operador ternario
+1. Usar if/elif/else para tomar decisiones
+2. Crear bucles con for y while
+3. Controlar iteraciones con break/continue
+4. Usar range() para secuencias
 
 ## Cómo ejecutar
 
 ```bash
-python Estructuras_control/if-else/operadores_logicos.py
-python Estructuras_control/if-else/operador_ternario.py
+python Estructuras_control/if-else/comparacion.py
+python Estructuras_control/for/for.py
+python Estructuras_control/while/while.py
 ```
 
 ## Siguiente unidad
 
-→ Módulo 3: Control de Flujo (m3-flow)
-← Unidad anterior: Módulo 1 (m1-vars)
+→ Módulo 4: Funciones (m4-func)
+← Unidad anterior: Módulo 2 (m2-ops)
