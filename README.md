@@ -1,6 +1,6 @@
 # Python 2026 - Ejercicios Prácticos
 
-**[ebook: python-2026-ebook](https://github.com/statick88/python-2026-ebook)** | **[ curso web](https://abacom.dev/python)**
+**[ebook: python-2026-ebook](https://github.com/statick88/python-2026-ebook)** | **[curso web](https://abacom.dev/python)**
 
 > 🐍 **Aprende Python desde cero hasta IA** — 12 módulos progresivos con ejercicios prácticos
 
@@ -36,7 +36,7 @@ git branch -a
 # Cambiar a una rama específica (ej: M1 - Variables)
 git checkout m1-vars
 
-#Ver contenido
+# Ver contenido
 ls -la Introduccion/
 ```
 
@@ -59,7 +59,7 @@ done
 
 ## 📖 Relacionado con el Ebook
 
-El ** contenido teórico** vive en el ebook separado:
+El **contenido teórico** vive en el ebook separado:
 
 👉 **[python-2026-ebook](https://github.com/statick88/python-2026-ebook)**
 
