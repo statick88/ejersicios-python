@@ -9,21 +9,17 @@
 - `self` - referencia al objeto
 
 ### Pilares de POO:
-- **Encapsulación** - atributos privados
+- **Encapsulación** - proteger datos
 - **Herencia** - reusar código
 - **Polimorfismo** - múltiples formas
 - **Abstracción** - simplificar complejidad
 
-### Archivos nuevos:
-- `POO/persona.py` - clase básica
-- `POO/herencia/` - herencia de clases
-- `POO/encapsulacion/` - proteger datos
-- `POO/polimorfismo/` - métodos múltiples
-
 ### Contenido acumulado (incluye M0-M4):
-- Funciones
-- Control de flujo
-- Tipos de datos
+- Funciones (M4)
+- Control de flujo (M3)
+- Operadores (M2)
+- Variables y tipos (M1)
+- Introducción (M0)
 
 ## Objetivos de aprendizaje
 
