@@ -1,45 +1,43 @@
-# Módulo 3: Control de Flujo
+# Módulo 9: Testing
 
 ## Contenido de esta unidad
 
-### Estructuras condicionales:
-- `if` - ejecutar si condición es True
-- `elif` - otras condiciones
-- `else` - cuando ninguna condición cumple
+### Testing con pytest:
+- `assert` - afirmaciones
+- `pytest` - framework de testing
+- `unittest` - testing integrado
+- Mocking - simular objetos
 
-### Estructuras iterativas:
-- `for` - iterar sobre secuencias
-- `while` - iterar mientras condición True
-- `range()` - generar secuencias numéricas
+### Técnicas de testing:
+- Unit tests - pruebas unitarias
+- Integration tests - pruebas de integración
+- Fixtures - datos de prueba
+- Coverage - cobertura de código
 
-### Archivos nuevos:
-- `Estructuras_control/if-else/` - condicionales
-- `Estructuras_control/for/` - bucles for
-- `Estructuras_control/while/` - bucles while
-- `Estructuras_control/desafios/` - retos prácticos
-
-### Contenido acumulado (incluye M0 + M1 + M2):
-- Variables y tipos de datos
-- Operadores y expresiones
-- Conversión entre tipos
+### Contenido acumulado (incluye M0-M8):
+- Errores y Excepciones
+- Archivos y Persistencia
+- Colecciones
+- POO
+- Funciones
+- Control de flujo
 
 ## Objetivos de aprendizaje
 
 Al finalizar esta unidad podrás:
-1. Usar if/elif/else para tomar decisiones
-2. Crear bucles con for y while
-3. Controlar iteraciones con break/continue
-4. Usar range() para secuencias
+1. Escribir tests unitarios
+2. Usar pytest
+3. Medir cobertura
 
 ## Cómo ejecutar
 
 ```bash
-python Estructuras_control/if-else/comparacion.py
-python Estructuras_control/for/for.py
-python Estructuras_control/while/while.py
+pytest tests/
+# o
+python -m pytest
 ```
 
 ## Siguiente unidad
 
-→ Módulo 4: Funciones (m4-func)
-← Unidad anterior: Módulo 2 (m2-ops)
+→ Módulo 10: Proyecto Integrador (m10-proj)
+← Unidad anterior: Módulo 8 (m8-err)
