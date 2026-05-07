@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Módulo 2: Operadores y Expresiones
 
 ## Contenido de esta unidad
@@ -36,3 +37,6 @@ python Estructuras_control/if-else/operador_ternario.py
 
 → Módulo 3: Control de Flujo (m3-flow)
 ← Unidad anterior: Módulo 1 (m1-vars)
+=======
+# Curso Python 2026
+>>>>>>> m1-vars
