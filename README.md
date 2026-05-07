@@ -3,25 +3,30 @@
 ## Contenido de esta unidad
 
 ### Tipos de colecciones:
-- **Listas** - secuencias mutables
-- **Tuplas** - secuencias immutables
-- **Diccionarios** - pares clave-valor
-- **Sets** - sin duplicados
+- **Listas** - secuencias mutables `[1, 2, 3]`
+- **Tuplas** - secuencias inmutables `(1, 2, 3)`
+- **Conjuntos** - elementos únicos `{1, 2, 3}`
+- **Diccionarios** - clave-valor `{"a": 1}`
 
-### Contenido acumulado (incluye M0-M5):
-- POO
-- Funciones
-- Control de flujo
-- Operadores
-- Variables
+### Archivos de esta unidad:
+- `Introduccion/m6_colecciones.py` - Teoría y ejemplos
+- `Introduccion/ejercicio_05.py` - Práctica
 
-## Objetivos
+## Objetivos de aprendizaje
 
-1. Manipular listas y diccionarios
-2. Usar comprensión de listas
-3. Ordenar colecciones
+Al finalizar esta unidad podrás:
+1. Crear y manipular listas, tuplas, sets, diccionarios
+2. Entender diferencias entre tipos de colecciones
+3. Usar métodos específicos de cada tipo
 
-## Siguiente
+## Cómo ejecutar
+
+```bash
+python Introduccion/m6_colecciones.py
+python Introduccion/ejercicio_05.py
+```
+
+## Siguiente unidad
 
 → Módulo 7: Archivos
-← Anterior: Módulo 5
+← Unidad anterior: Módulo 5
