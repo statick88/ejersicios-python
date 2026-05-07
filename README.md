@@ -1,45 +1,46 @@
-# Módulo 3: Control de Flujo
+# Módulo 7: Archivos y Persistencia
 
 ## Contenido de esta unidad
 
-### Estructuras condicionales:
-- `if` - ejecutar si condición es True
-- `elif` - otras condiciones
-- `else` - cuando ninguna condición cumple
+### Lectura y escritura:
+- `open()` - abrir archivos
+- `read()`, `readline()`, `readlines()`
+- `write()`, `writelines()`
+- `with` - context manager (seguro)
 
-### Estructuras iterativas:
-- `for` - iterar sobre secuencias
-- `while` - iterar mientras condición True
-- `range()` - generar secuencias numéricas
+### Formatos de archivo:
+- **TXT** - archivos de texto
+- **CSV** - Comma Separated Values
+- **JSON** - JavaScript Object Notation
 
 ### Archivos nuevos:
-- `Estructuras_control/if-else/` - condicionales
-- `Estructuras_control/for/` - bucles for
-- `Estructuras_control/while/` - bucles while
-- `Estructuras_control/desafios/` - retos prácticos
+- `Archivos/archivo.py` - operaciones básicas
+- `Archivos/lectura_segura.py` - lectura con with
+- `Archivos/csv/` - manejo de CSV
+- `Archivos/json/` - manejo de JSON
 
-### Contenido acumulado (incluye M0 + M1 + M2):
-- Variables y tipos de datos
-- Operadores y expresiones
-- Conversión entre tipos
+### Contenido acumulado (incluye M0-M6):
+- Colecciones
+- POO
+- Funciones
+- Control de flujo
 
 ## Objetivos de aprendizaje
 
 Al finalizar esta unidad podrás:
-1. Usar if/elif/else para tomar decisiones
-2. Crear bucles con for y while
-3. Controlar iteraciones con break/continue
-4. Usar range() para secuencias
+1. Leer y escribir archivos
+2. Manejar CSV
+3. Trabajar con JSON
 
 ## Cómo ejecutar
 
 ```bash
-python Estructuras_control/if-else/comparacion.py
-python Estructuras_control/for/for.py
-python Estructuras_control/while/while.py
+python Archivos/archivo.py
+python Archivos/lectura_segura.py
+python Archivos/json/guardar.py
 ```
 
 ## Siguiente unidad
 
-→ Módulo 4: Funciones (m4-func)
-← Unidad anterior: Módulo 2 (m2-ops)
+→ Módulo 8: Errores y Excepciones (m8-err)
+← Unidad anterior: Módulo 6 (m6-coll)
