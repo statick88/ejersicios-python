@@ -3,38 +3,25 @@
 ## Contenido de esta unidad
 
 ### Tipos de colecciones:
-- **Listas** - secuencias ordenadas y mutables
-- **Tuplas** - secuencias ordenadas e inmutables
+- **Listas** - secuencias mutables
+- **Tuplas** - secuencias immutables
 - **Diccionarios** - pares clave-valor
-- **Sets** - colecciones sin duplicados
-
-### Operaciones comunes:
-- Agregar, eliminar, modificar elementos
-- Buscar y filtrar
-- Ordenar y反转
+- **Sets** - sin duplicados
 
 ### Contenido acumulado (incluye M0-M5):
-- POO (Clases y Objetos)
+- POO
 - Funciones
 - Control de flujo
-- Tipos de datos
+- Operadores
+- Variables
 
-## Objetivos de aprendizaje
+## Objetivos
 
-Al finalizar esta unidad podrás:
 1. Manipular listas y diccionarios
 2. Usar comprensión de listas
 3. Ordenar colecciones
 
-## Cómo ejecutar
+## Siguiente
 
-```bash
-python Introduccion/listas.py
-python Introduccion/diccionarios.py
-python Introduccion/set.py
-```
-
-## Siguiente unidad
-
-→ Módulo 7: Archivos y Persistencia (m7-file)
-← Unidad anterior: Módulo 5 (m5-poo)
+→ Módulo 7: Archivos
+← Anterior: Módulo 5
