@@ -1,45 +1,45 @@
-# Módulo 3: Control de Flujo
+# Módulo 10: Proyecto Integrador
 
 ## Contenido de esta unidad
 
-### Estructuras condicionales:
-- `if` - ejecutar si condición es True
-- `elif` - otras condiciones
-- `else` - cuando ninguna condición cumple
+### Proyecto final:
+Aplica todo lo aprendido en un proyecto completo que integra:
+- POO ( clases y objetos)
+- Archivos (persistencia de datos)
+- Colecciones (manejo de datos)
+- Funciones (organización del código)
+- Control de flujo (lógica del programa)
+- Testing (verificación)
 
-### Estructuras iterativas:
-- `for` - iterar sobre secuencias
-- `while` - iterar mientras condición True
-- `range()` - generar secuencias numéricas
+### Proyectos de ejemplo:
+- Sistema académico
+- Gestor de tareas
+- Agenda de contactos
+- Calculadora de gastos
 
-### Archivos nuevos:
-- `Estructuras_control/if-else/` - condicionales
-- `Estructuras_control/for/` - bucles for
-- `Estructuras_control/while/` - bucles while
-- `Estructuras_control/desafios/` - retos prácticos
-
-### Contenido acumulado (incluye M0 + M1 + M2):
-- Variables y tipos de datos
-- Operadores y expresiones
-- Conversión entre tipos
+### Contenido acumulado (incluye M0-M9):
+- Testing
+- Errores y Excepciones
+- Archivos y Persistencia
+- Colecciones
+- POO
+- Funciones
+- Control de flujo
 
 ## Objetivos de aprendizaje
 
 Al finalizar esta unidad podrás:
-1. Usar if/elif/else para tomar decisiones
-2. Crear bucles con for y while
-3. Controlar iteraciones con break/continue
-4. Usar range() para secuencias
+1. Crear un proyecto completo
+2. Integrar todos los conceptos
+3. Aplicar mejores prácticas
 
-## Cómo ejecutar
+## Proyecto ejemplo
 
 ```bash
-python Estructuras_control/if-else/comparacion.py
-python Estructuras_control/for/for.py
-python Estructuras_control/while/while.py
+python sistema_academico/main.py
 ```
 
 ## Siguiente unidad
 
-→ Módulo 4: Funciones (m4-func)
-← Unidad anterior: Módulo 2 (m2-ops)
+→ Módulo 11: IA para Desarrolladores (m11-ia)
+← Unidad anterior: Módulo 9 (m9-test)
