@@ -1,45 +1,47 @@
-# Módulo 3: Control de Flujo
+# Módulo 4: Funciones
 
 ## Contenido de esta unidad
 
-### Estructuras condicionales:
-- `if` - ejecutar si condición es True
-- `elif` - otras condiciones
-- `else` - cuando ninguna condición cumple
+### Definición y llamada:
+- `def nombre(parametros):` - definir función
+- `return` - retornar valor
+- Parámetros posicionales y por nombre
+- Valores por defecto
+- `*args` y `**kwargs`
 
-### Estructuras iterativas:
-- `for` - iterar sobre secuencias
-- `while` - iterar mientras condición True
-- `range()` - generar secuencias numéricas
+### Funciones lambda:
+- Funciones anónimas de una línea
+- Uso con map(), filter(), sorted()
 
 ### Archivos nuevos:
-- `Estructuras_control/if-else/` - condicionales
-- `Estructuras_control/for/` - bucles for
-- `Estructuras_control/while/` - bucles while
-- `Estructuras_control/desafios/` - retos prácticos
+- `Funciones/anatomia.py` - anatomy de una función
+- `Funciones/args.py` - *args parámetros
+- `Funciones/kwargs.py` - **kwargs parámetros
+- `Funciones/lambda.py` - funciones lambda
+- `Funciones/doc_string.py` - documentación
 
-### Contenido acumulado (incluye M0 + M1 + M2):
-- Variables y tipos de datos
-- Operadores y expresiones
-- Conversión entre tipos
+### Contenido acumulado (incluye M0-M3):
+- Variables y tipos
+- Operadores
+- Control de flujo (if, for, while)
 
 ## Objetivos de aprendizaje
 
 Al finalizar esta unidad podrás:
-1. Usar if/elif/else para tomar decisiones
-2. Crear bucles con for y while
-3. Controlar iteraciones con break/continue
-4. Usar range() para secuencias
+1. Crear tus propias funciones
+2. Usar parámetros y return
+3. Comprender *args y **kwargs
+4. Escribir funciones lambda
 
 ## Cómo ejecutar
 
 ```bash
-python Estructuras_control/if-else/comparacion.py
-python Estructuras_control/for/for.py
-python Estructuras_control/while/while.py
+python Funciones/anatomia.py
+python Funciones/intro.py
+python Funciones/lambda.py
 ```
 
 ## Siguiente unidad
 
-→ Módulo 4: Funciones (m4-func)
-← Unidad anterior: Módulo 2 (m2-ops)
+→ Módulo 5: POO - Programación Orientada a Objetos (m5-poo)
+← Unidad anterior: Módulo 3 (m3-flow)
