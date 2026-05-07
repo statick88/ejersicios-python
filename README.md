@@ -44,7 +44,7 @@ ls -la Introduccion/
 
 ```bash
 # Clonar con todas las ramas
-git clone --branch main --single-branch https://github.com/statick88/ejersicios-python.git
+git clone --branch main --single-branch https://github.com/statick88/ejercicios-python.git
 
 # Ver ramas remotas
 git fetch origin
@@ -59,7 +59,7 @@ done
 
 ## 📖 Relacionado con el Ebook
 
-El ** contenido teórico** live en el ebook separado:
+El ** contenido teórico** vive en el ebook separado:
 
 👉 **[python-2026-ebook](https://github.com/statick88/python-2026-ebook)**
 
