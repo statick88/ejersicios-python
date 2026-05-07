@@ -107,7 +107,7 @@ python Introduccion/ejercicio_01.py arg1 arg2
 python -c "import Introduccion.m0_introduccion"
 ```
 
-## 🔄 Contribution
+## 🔄 Contributing
 
 ¿Encontraste un error o tienes sugerencias?
 
