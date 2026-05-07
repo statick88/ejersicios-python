@@ -14,14 +14,10 @@
 - **Polimorfismo** - múltiples formas
 - **Abstracción** - simplificar complejidad
 
-### Contenido acumulado (incluye M0-M4):
-- Funciones (M4)
-- Control de flujo (M3)
-- Operadores (M2)
-- Variables y tipos (M1)
-- Introducción (M0)
+### Archivos de esta unidad:
+- `POO/m5_poo.py` - Teoría y ejemplos
 
-## Objetivos de aprendizaje
+### Objetivos de aprendizaje
 
 Al finalizar esta unidad podrás:
 1. Crear clases y objetos
@@ -32,12 +28,10 @@ Al finalizar esta unidad podrás:
 ## Cómo ejecutar
 
 ```bash
-python POO/persona.py
-python POO/herencia/main.py
-python POO/encapsulacion/main.py
+python POO/m5_poo.py
 ```
 
 ## Siguiente unidad
 
-→ Módulo 6: Colecciones (m6-coll)
-← Unidad anterior: Módulo 4 (m4-func)
+→ Módulo 6: Colecciones
+← Unidad anterior: Módulo 4
